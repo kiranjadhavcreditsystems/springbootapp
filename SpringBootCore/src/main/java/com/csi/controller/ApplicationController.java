@@ -31,6 +31,12 @@ public class ApplicationController {
         return "WELCOME TO FINTECH CSI LOAN SERVICES";
     }
 
+    @GetMapping("/stack")
+    public String stack()
+    {
+        return "stack";
+    }
+
 
 
 }
