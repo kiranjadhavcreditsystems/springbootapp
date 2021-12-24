@@ -25,13 +25,11 @@ public class ApplicationController {
         return "Software Development";
     }
 
-    @GetMapping("/Fullstack")
-    public String Fullstack()
+    @GetMapping("/loan")
+    public String loanServices()
     {
-        return "Fullstack";
+        return "WELCOME TO FINTECH CSI LOAN SERVICES";
     }
-
-
 
 
 
