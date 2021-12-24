@@ -19,4 +19,10 @@ public class ApplicationController {
         return "INSPIRIA MALL | PUNE";
     }
 
+    @GetMapping("/services")
+    public String csiServices()
+    {
+        return "Software Development";
+    }
+
 }
