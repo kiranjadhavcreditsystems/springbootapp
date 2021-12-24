@@ -25,4 +25,14 @@ public class ApplicationController {
         return "Software Development";
     }
 
+    @GetMapping("/Fullstack")
+    public String Fullstack()
+    {
+        return "Fullstack";
+    }
+
+
+
+
+
 }
