@@ -25,4 +25,12 @@ public class ApplicationController {
         return "Software Development";
     }
 
+    @GetMapping("/loan")
+    public String loanServices()
+    {
+        return "WELCOME TO FINTECH CSI LOAN SERVICES";
+    }
+
+
+
 }
